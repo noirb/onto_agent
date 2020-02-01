@@ -1,0 +1,3 @@
+string name
+---
+ontology_msgs/Graph graph

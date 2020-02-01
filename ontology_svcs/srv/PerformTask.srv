@@ -1,0 +1,4 @@
+string[] steps
+---
+bool success
+string reason

@@ -1,0 +1,7 @@
+<launch>
+ <!-- ROSBridge Server for communication w/ systems outside of ROS -->
+ <include file="$(find rosbridge_server)/launch/rosbridge_websocket.launch" />
+
+ <!-- json_prolog for storing & providing ontology services -->
+ <include file="$(find json_prolog)/launch/json_prolog.launch" />
+</launch>

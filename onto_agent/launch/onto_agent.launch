@@ -1,0 +1,5 @@
+<launch>
+
+ <include file="$(find onto_agent)/launch/onto_agent.prereqs.launch" />
+ <node name="onto_agent" pkg="onto_agent" type="onto_agent" output="screen" required="true" />
+</launch>

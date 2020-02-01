@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<package>
+  <name>ontology_svcs</name>
+  <version>0.1.0</version>
+  <description>A collection of service definitions for working with ontologies and class instances.
+  </description>
+
+  <maintainer email="tamas.bates@tum.de">tamas</maintainer>
+
+  <license>AGPLv3</license>
+
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/simple_unity_bot</url> -->
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>roscs</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <run_depend>message_runtime</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package>
+  <name>onto_agent</name>
+  <version>0.1.0</version>
+  <description>Learning agent using an Ontology for knowledge representation</description>
+
+  <maintainer email="tamas.bates@tum.de">tamas</maintainer>
+  
+  <license>AGPLv3</license>
+
+
+  <!-- Url tags are optional, but mutiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/knowrob-test01</url> -->
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>cmake_modules</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>rosbag</build_depend>
+  <build_depend>std_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>json_prolog</build_depend>
+  <build_depend>ontology_msgs</build_depend>
+  <build_depend>ontology_svcs</build_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>rosbag</run_depend>
+  <run_depend>std_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>ontology_msgs</run_depend>
+  <run_depend>ontology_svcs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>json_prolog</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

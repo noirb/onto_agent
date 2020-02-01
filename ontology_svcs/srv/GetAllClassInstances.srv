@@ -1,0 +1,5 @@
+
+---
+string[] classes
+string[] entityNames
+ontology_msgs/OntoPropertyList[] properties

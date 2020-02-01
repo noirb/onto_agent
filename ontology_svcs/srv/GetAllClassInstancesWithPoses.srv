@@ -1,0 +1,7 @@
+
+---
+string[] classes
+string[] entityNames
+geometry_msgs/Vector3[] positions
+geometry_msgs/Quaternion[] orientations
+ontology_msgs/OntoPropertyList[] properties

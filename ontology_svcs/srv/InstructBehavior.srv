@@ -1,0 +1,6 @@
+uint32 IDLE=0
+uint32 OBSERVE=1
+uint32 ACT=1
+
+uint32 targetBehavior
+string params

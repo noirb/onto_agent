@@ -1,0 +1,6 @@
+string objName
+string objClass
+---
+string newInstanceName
+string reason
+bool success
