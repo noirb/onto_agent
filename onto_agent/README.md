@@ -9,6 +9,7 @@ This project contains an ontology-based action learning and recognition system.
 * [gencs](https://github.com/noirb/gencs)
 * [ontology_msgs](../ontology_msgs)
 * [ontology_svcs](../ontology_svcs)
+* `libncurses5-dev`
 * [household-scenarios](https://github.com/noirb/HouseholdScenarios)
 * [OPTIONAL] [onto-vis](https://github.com/noirb/onto-vis)
 
